@@ -1,7 +1,7 @@
 # Start 
 * Install Express (CLI)
 * Create a Repo on Github
-* Create a project with Express Generator & save to gihub
+* Create a project with Express Generator & save to github
 
 ```
 $ express --view=hbs server
@@ -19,8 +19,8 @@ $ npm install --save-dev mocha chai supertest
 // package.json
 "scripts": {
   "start": "node ./bin/www",
-  "test": "jest",
-  "test:watch": "jest --watch"
+  "test": "mocha",
+  "test:watch": "mocha --watch"
 }
  ```
 
